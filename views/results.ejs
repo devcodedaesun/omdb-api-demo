@@ -1,0 +1,15 @@
+<% include partials/header.ejs %>
+
+<h1>Results</h1>
+
+<% parsedData.Search.forEach(function(movie){ %>
+    <li>
+        <%= movie.Title %> - <%= movie.Year %>
+    </li>
+<% }) %>
+
+<br>
+
+<a href="/">Search Again!</a>
+
+<% include partials/footer.ejs %>

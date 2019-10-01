@@ -1,0 +1,16 @@
+{
+  "name": "omdb-api-demo",
+  "version": "1.0.0",
+  "description": "This app is a demo of using the OMDB API. Search functionality is included.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daesun Pak",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
